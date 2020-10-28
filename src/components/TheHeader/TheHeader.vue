@@ -33,6 +33,7 @@
           <b-dropdown-item href="#">Mon compte</b-dropdown-item>
           <b-dropdown-item href="#">Se déconnecter</b-dropdown-item>
         </b-nav-item-dropdown>
+            <b-avatar href="#bar" src="https://placekitten.com/300/300"></b-avatar>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
@@ -43,10 +44,10 @@
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.733);
   &:hover {
-    color: black;
+    color: white;
+    text-decoration: none;
   }
 }
-
 </style>

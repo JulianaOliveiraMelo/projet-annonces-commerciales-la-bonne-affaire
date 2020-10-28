@@ -2,16 +2,18 @@
   <div id="app">
     <TheHeader></TheHeader>
     <router-view></router-view>
+    <TheFooter></TheFooter>
   </div>
 </template>
 
 <script>
-import TheHeader from './views/TheHeader'
-
+import TheHeader from './components/TheHeader/TheHeader'
+import TheFooter from './components/TheFooter/TheFooter'
 
 export default {
   components: {
-    TheHeader
+    TheHeader,
+    TheFooter
   }
 }
 
