@@ -39,4 +39,10 @@ export default {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+.carousel-caption {
+  right:0 !important;
+  left:0 !important;
+  background-color: rgba(0, 0, 0, 0.671);
+  padding: 0 15%;
+}
 </style>
